@@ -21,6 +21,7 @@ __________________________________________________________________________
   Step 2: Create a new channel with 4 fields with the name of your choice. Do not change the 'field1/2/3/4'.
   Step 3: Copy the 'Write Key' and and paste it in the 'Key' variable.
   Step 4: Replace 'SSID' and 'PASS' with your own WiFi network credentials.
+  Step 5: Install the necessary libraries.
   Step 5: Connect the USB cable to the Arduino and upload the code.
   Step 6: Detach the USB cable.
 
@@ -56,3 +57,7 @@ ________________________________________________________________________________
 </pre>
 __________________________________________________________________________
 
+**Debugging:**
+<pre>
+  The arduino sends data about the tasks executed with or without errors on the Serial Monitor with 9600 baud.
+</pre>
