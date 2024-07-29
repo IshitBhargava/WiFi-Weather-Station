@@ -4,9 +4,9 @@ dht DHT11;                      // Initializing the DHT11 object
 String temp;                   // String to store temperature
 String humid;                  // String to store humidity
 SoftwareSerial  esp8266(3,4);  // Creating a SoftwareSerial object for ESP8266 communication on pins 3 and 4
-String PASS = "Nitin17823";  // WiFi SSID
-String SSID = "RSR2.4";     // WiFi password
-String key = "Y932GET91ZEW9WTW";
+String PASS = "REPLACE WITH YOUR PASSWORD";  // WiFi SSID
+String SSID = "REPLACE WITH YOUR SSID";     // WiFi password
+String key = "REPLACE WITH YOUR WRITE API KEY";
 // Function to send AT commands to ESP8266
 String sendAT(String command, const int timeout)
 {
